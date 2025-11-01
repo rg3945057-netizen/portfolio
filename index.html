@@ -1,155 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFOLIO</title>
-    
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTFOLIO</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Montserrat:wght@800&display=swap" rel="stylesheet">
+  <!-- ✅ Add Tailwind here -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- ✅ Then your custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Montserrat:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 
 <body class="font-poppins">
 
-    <div class="background-animation"></div>
+  <div class="content-wrapper">
 
-    <div class="content-wrapper">
+    <header class="container mx-auto px-4 pt-16 pb-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
 
-        <header class="container mx-auto px-4 pt-16 pb-8">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
-                
-                <div class="md:col-span-1 md:sticky md:top-8 h-fit p-6 card-base border-t-4 border-accent-secondary shadow-3d-secondary">
-                    <div class="flex flex-col items-center md:items-start space-y-4">
-                        <div class="w-48 h-48 rounded-full bg-primary-dark p-1 shadow-2xl overflow-hidden pulse-subtle profile-photo-animate">
-                            <img src="https://i.postimg.cc/ZKPvCRXc/IMG-20251023-011246.jpg" alt="Your Profile Photo" class="w-full h-full object-cover rounded-full border-4 border-accent-primary/50">
-                        </div>
-
-                        <h1 class="text-4xl font-extrabold tracking-wider text-center md:text-left text-accent-primary font-montserrat heading-glow">
-                           𝑻𝑨𝑵𝑰𝑺𝑯𝑸 𝑮𝑼𝑷𝑻𝑨
-                        </h1>
-                        <p class="text-xl text-center md:text-left text-accent-secondary uppercase tracking-widest font-poppins font-semibold">
-                            B.Tech CSE (AI/ML) Student at NST-Pune
-                        </p>
-                        <p class="text-gray-300 text-center md:text-left leading-relaxed max-w-xs p-3 border-l-4 border-accent-secondary/70 bg-primary-dark/50 rounded-md shadow-inner">
-                            "𝘉𝘳𝘪𝘥𝘨𝘪𝘯𝘨 𝘢𝘥𝘷𝘢𝘯𝘤𝘦𝘥 𝘤𝘰𝘮𝘱𝘶𝘵𝘪𝘯𝘨 𝘢𝘯𝘥 𝘳𝘦𝘢𝘭-𝘸𝘰𝘳𝘭𝘥 𝘭𝘦𝘢𝘥𝘦𝘳𝘴𝘩𝘪𝘱 𝘧𝘰𝘳 𝘵𝘢𝘯𝘨𝘪𝘣𝘭𝘦 𝘱𝘳𝘰𝘫𝘦𝘤𝘵 𝘰𝘶𝘵𝘤𝘰𝘮𝘦𝘴."
-
-                        </p>
-                    </div>
-                </div>
-
-                <div class="md:col-span-3 space-y-20 pt-8 md:pt-0">
-                    
-                    <section id="projects" class="section-container shadow-3d-secondary section-animate">
-                        <h2 class="section-title text-accent-secondary border-l-4 border-accent-secondary font-montserrat heading-glow">Works and Contribution</h2>
-                        
-                        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                            <div class="project-card transform-3d-hover">
-                                <h3 class="card-title text-accent-primary">𝕀𝕞𝕡𝕒𝕔𝕥 𝕀𝕟𝕕𝕚𝕒 ℍ𝕒𝕔𝕜𝕒𝕥𝕙𝕠𝕟 - 𝔾𝕒𝕞𝕚𝕗𝕚𝕖𝕕 𝔼𝕕𝕦𝕔𝕒𝕥𝕚𝕠𝕟</h3>
-                                <p class="card-text">
-                            "Built a mobile application focused on streamlining scholarship discovery and application for students."
-                                </p>
-                                <a href="https://app--scholar-match-ai-d3a50e18.base44.app/login?from_url=https://app--scholar-match-ai-d3a50e18.base44.app/&app_id=68b06141d28e3ebed3a50e18" target="_blank" class="project-link">View Project Link &rarr;</a>
-                            </div>
-                            
-                            <div class="project-card transform-3d-hover">
-                                <h3 class="card-title text-accent-primary">𝕊𝕀ℍ - 𝕊𝕔𝕙𝕠𝕝𝕒𝕣𝕤𝕙𝕚𝕡 ℙ𝕣𝕠𝕧𝕚𝕕𝕖𝕣 𝔸𝕡𝕡</h3>
-                                <p class="card-text">"Developed a full website that turns education into a trackable, engaging, and competitive game for students and teachers."</p>
-                                <a href="https://vidya-quest-learn-grow-e70d00e5.base44.app/login?from_url=https://vidya-quest-learn-grow-e70d00e5.base44.app/&app_id=68b9e603a0d268c1e70d00e5" target="_blank" class="project-link">View Project Link &rarr;</a>
-                            </div>
-
-                            <div class="project-card transform-3d-hover">
-                                <h3 class="card-title text-accent-primary">𝕊𝕔𝕣𝕒𝕥𝕔𝕙 𝕀𝕟𝕕𝕚𝕒 ℍ𝕒𝕔𝕜𝕒𝕥𝕙𝕠𝕟 - 𝕍𝕚𝕝𝕝𝕒𝕚𝕟𝕤 𝕕𝕒𝕪 𝕘𝕒𝕞𝕖</h3>
-                                <p class="card-text">"A creative multiplayer game developed around the theme of "Villains Day," showcasing game development basics."</p>
-                                <a href="https://scratch.mit.edu/projects/1208782653" target="_blank" class="project-link">View Project Link &rarr;</a>
-                            </div>
-                        </div>
-                    </section>
-                    
-                    <section id="achievements" class="section-container shadow-3d-primary section-animate">
-                        <h2 class="section-title text-accent-primary border-l-4 border-accent-primary font-montserrat heading-glow">Core Achievements & Leadership</h2>
-
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
-                            
-                            <div class="project-card transform-3d-hover">
-                                <h3 class="card-title text-accent-secondary">JEE Success</h3>
-                                <p class="card-text">"Qualified JEE Mains with "97.99 percentile" and scored "118 marks" in JEE Advanced."</p>
-                             
-                            </div>
-                            
-                            <div class="project-card transform-3d-hover">
-                                <h3 class="card-title text-accent-secondary">Talent Search Winner</h3>
-                                <p class="card-text">"Won the "Talent Search Contest", a prominent program organized by Navodaya Vidyalaya Samiti.</p>
-                                <a href="[PASTE-TALENT-CERTIFICATE-PDF-LINK]" target="_blank" class="certificate-link">View Certificate &rarr;</a>
-                            </div>
-
-                            <div class="project-card transform-3d-hover sm:col-span-2">
-                                <h3 class="card-title text-accent-secondary">Community Impact & Leadership</h3>
-                                <p class="card-text">"Led teams in all major hackathons and spearheaded a successful drive for cancer patients, gathering the largest amount raised."</p>
-                                <a href="[PASTE-COMMUNITY-CERTIFICATE-PDF-LINK]" target="_blank" class="certificate-link">View Certificate &rarr;</a>
-                            </div>
-                        </div>
-                    </section>
-                    
-                    <section id="hobbies" class="section-container shadow-3d-secondary section-animate">
-                        <h2 class="section-title text-accent-secondary border-l-4 border-accent-secondary font-montserrat heading-glow">Interests & Engagement</h2>
-
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
-                            <div class="hobby-card transform-3d-hover">
-                                <i class="fas fa-gamepad text-6xl text-accent-primary mb-3 hobby-icon-pulse"></i>
-                                <p class="text-white font-semibold text-lg tracking-wider">Esports & Gaming</p>
-                            </div>
-                            <div class="hobby-card transform-3d-hover">
-                                <i class="fas fa-users text-6xl text-accent-primary mb-3 hobby-icon-pulse"></i>
-                                <p class="text-white font-semibold text-lg tracking-wider">Hangout with Friends</p>
-                            </div>
-                            <div class="hobby-card transform-3d-hover">
-                                <i class="fas fa-baseball-ball text-6xl text-accent-primary mb-3 hobby-icon-pulse"></i>
-                                <p class="text-white font-semibold text-lg tracking-wider">Cricket Enthusiast</p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <footer class="text-center py-12">
-                        <h2 class="text-3xl font-montserrat text-accent-primary mb-6 heading-glow">Let's Connect</h2>
-                        <p class="text-gray-400 mb-8 max-w-lg mx-auto">Seeking opportunities to apply AI/ML foundations and strong technical leadership to future-focused challenges.</p>
-
-                        <a href="mailto:rg3945057@gmail.com" class="contact-button transform-3d-hover">
-                            Email Me &nbsp;<i class="fas fa-arrow-right"></i>
-                        </a>
-                    </footer>
-
-                </div>
+        <div class="md:col-span-1 md:sticky md:top-8 h-fit p-6 card-base border-t-4 border-accent-secondary">
+          <div class="flex flex-col items-center md:items-start space-y-4">
+            <div class="w-48 h-48 rounded-full bg-primary-dark p-1 overflow-hidden">
+              <img src="https://i.postimg.cc/ZKPvCRXc/IMG-20251023-011246.jpg" alt="Your Profile Photo" class="w-full h-full object-cover rounded-full border-4 border-accent-primary/50">
             </div>
-        </header>
-    </div>
-<script>
-        // Intersection Observer for Section Animations
-        const sections = document.querySelectorAll('.section-animate');
-        const observerOptions = {
-            root: null,
-            threshold: 0.1, 
-        };
-        const sectionObserver = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('is-visible');
-                    observer.unobserve(entry.target); 
-                }
-            });
-        }, observerOptions);
 
-        sections.forEach(section => {
-            sectionObserver.observe(section);
-        });
+            <h1 class="text-4xl font-extrabold tracking-wider text-center md:text-left text-accent-primary font-montserrat">
+              𝑻𝑨𝑵𝑰𝑺𝑯𝑸 𝑮𝑼𝑷𝑻𝑨
+            </h1>
 
-        // Trigger profile photo animation immediately
-        const profilePhoto = document.querySelector('.profile-photo-animate');
-        if (profilePhoto) {
-            profilePhoto.classList.add('is-loaded');
-        }
-    </script>
+            <p class="text-xl text-center md:text-left text-accent-secondary uppercase tracking-widest font-poppins font-semibold">
+              B.Tech CSE (AI/ML) Student at NST-Pune
+            </p>
+
+            <p class="text-gray-300 text-center md:text-left leading-relaxed max-w-xs p-3 border-l-4 border-accent-secondary/70 bg-primary-dark/50 rounded-md">
+              "𝘉𝘳𝘪𝘥𝘨𝘪𝘯𝘨 𝘢𝘥𝘷𝘢𝘯𝘤𝘦𝘥 𝘤𝘰𝘮𝘱𝘶𝘵𝘪𝘯𝘨 𝘢𝘯𝘥 𝘳𝘦𝘢𝘭-𝘸𝘰𝘳𝘭𝘥 𝘭𝘦𝘢𝘥𝘦𝘳𝘴𝘩𝘪𝘱 𝘧𝘰𝘳 𝘵𝘢𝘯𝘨𝘪𝘣𝘭𝘦 𝘱𝘳𝘰𝘫𝘦𝘤𝘵 𝘰𝘶𝘵𝘤𝘰𝘮𝘦𝘴."
+            </p>
+          </div>
+        </div>
+
+        <div class="md:col-span-3 space-y-20 pt-8 md:pt-0">
+
+          <section id="projects" class="section-container">
+            <h2 class="section-title text-accent-secondary border-l-4 border-accent-secondary font-montserrat">Works and Contribution</h2>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+              <div class="project-card">
+                <h3 class="card-title text-accent-primary">𝕀𝕞𝕡𝕒𝕔𝕥 𝕀𝕟𝕕𝕚𝕒 ℍ𝕒𝕔𝕜𝕒𝕥𝕙𝕠𝕟 - 𝔾𝕒𝕞𝕚𝕗𝕚𝕖𝕕 𝔼𝕕𝕦𝕔𝕒𝕥𝕚𝕠𝕟</h3>
+                <p class="card-text">
+                  Built a mobile application focused on streamlining scholarship discovery and application for students.
+                </p>
+                <a href="https://app--scholar-match-ai-d3a50e18.base44.app/login?from_url=https://app--scholar-match-ai-d3a50e18.base44.app/&app_id=68b06141d28e3ebed3a50e18" target="_blank" class="project-link">View Project Link &rarr;</a>
+              </div>
+
+              <div class="project-card">
+                <h3 class="card-title text-accent-primary">𝕊𝕀ℍ - 𝕊𝕔𝕙𝕠𝕝𝕒𝕣𝕤𝕙𝕚𝕡 ℙ𝕣𝕠𝕧𝕚𝕕𝕖𝕣 𝔸𝕡𝕡</h3>
+                <p class="card-text">Developed a full website that turns education into a trackable, engaging, and competitive game for students and teachers.</p>
+                <a href="https://vidya-quest-learn-grow-e70d00e5.base44.app/login?from_url=https://vidya-quest-learn-grow-e70d00e5.base44.app/&app_id=68b9e603a0d268c1e70d00e5" target="_blank" class="project-link">View Project Link &rarr;</a>
+              </div>
+
+              <div class="project-card">
+                <h3 class="card-title text-accent-primary">𝕊𝕔𝕣𝕒𝕥𝕔𝕙 𝕀𝕟𝕕𝕚𝕒 ℍ𝕒𝕔𝕜𝕒𝕥𝕙𝕠𝕟 - 𝕍𝕚𝕝𝕝𝕒𝕚𝕟𝕤 𝕕𝕒𝕪 𝕘𝕒𝕞𝕖</h3>
+                <p class="card-text">A creative multiplayer game developed around the theme of "Villains Day," showcasing game development basics.</p>
+                <a href="https://scratch.mit.edu/projects/1208782653" target="_blank" class="project-link">View Project Link &rarr;</a>
+              </div>
+            </div>
+          </section>
+
+          <section id="achievements" class="section-container">
+            <h2 class="section-title text-accent-primary border-l-4 border-accent-primary font-montserrat">Core Achievements & Leadership</h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+
+              <div class="project-card">
+                <h3 class="card-title text-accent-secondary">JEE Success</h3>
+                <p class="card-text">Qualified JEE Mains with 97.99 percentile and scored 118 marks in JEE Advanced.</p>
+              </div>
+
+              <div class="project-card">
+                <h3 class="card-title text-accent-secondary">Talent Search Winner</h3>
+                <p class="card-text">Won the Talent Search Contest, a prominent program organized by Navodaya Vidyalaya Samiti.</p>
+                <a href="[PASTE-TALENT-CERTIFICATE-PDF-LINK]" target="_blank" class="certificate-link">View Certificate &rarr;</a>
+              </div>
+
+              <div class="project-card sm:col-span-2">
+                <h3 class="card-title text-accent-secondary">Community Impact & Leadership</h3>
+                <p class="card-text">Led teams in major hackathons and spearheaded a successful drive for cancer patients, gathering the largest amount raised.</p>
+                <a href="[PASTE-COMMUNITY-CERTIFICATE-PDF-LINK]" target="_blank" class="certificate-link">View Certificate &rarr;</a>
+              </div>
+            </div>
+          </section>
+
+          <section id="hobbies" class="section-container">
+            <h2 class="section-title text-accent-secondary border-l-4 border-accent-secondary font-montserrat">Interests & Engagement</h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
+              <div class="hobby-card">
+                <i class="fas fa-gamepad text-6xl text-accent-primary mb-3"></i>
+                <p class="text-white font-semibold text-lg tracking-wider">Esports & Gaming</p>
+              </div>
+              <div class="hobby-card">
+                <i class="fas fa-users text-6xl text-accent-primary mb-3"></i>
+                <p class="text-white font-semibold text-lg tracking-wider">Hangout with Friends</p>
+              </div>
+              <div class="hobby-card">
+                <i class="fas fa-baseball-ball text-6xl text-accent-primary mb-3"></i>
+                <p class="text-white font-semibold text-lg tracking-wider">Cricket Enthusiast</p>
+              </div>
+            </div>
+          </section>
+
+          <footer class="text-center py-12">
+            <h2 class="text-3xl font-montserrat text-accent-primary mb-6">Let's Connect</h2>
+            <p class="text-gray-400 mb-8 max-w-lg mx-auto">Seeking opportunities to apply AI/ML foundations and strong technical leadership to future-focused challenges.</p>
+
+            <a href="mailto:rg3945057@gmail.com" class="contact-button">
+              Email Me &nbsp;<i class="fas fa-arrow-right"></i>
+            </a>
+          </footer>
+
+        </div>
+      </div>
+    </header>
+  </div>
 </body>
 </html>
